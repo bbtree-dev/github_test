@@ -66,5 +66,12 @@ git commit -m "meg"
 git commit -am "add meg"
 
 git log
+git log --all
+git log --all --oneline
+
+#시간여행 
+git checkout 12321456
+git checkout master
+
 
 
