@@ -1,0 +1,70 @@
+git toole
+
+terminal
+gitdasktop
+sourcetree
+gitkraken
+
+git commend
+
+git --version
+git config --list
+git config --global -e
+
+
+#편집툴 연결
+git config --global core.editor "code"
+git config --global core.editor "code --wait"
+git config --global -e
+
+#사용자 설정, 이메일 설정
+git config --global user.name "kbkim"
+git config --global user.email "kbkim@bbtree.co.kr"
+
+git config user.name
+git config user.email
+
+#윈도우 사용자 : true, 맥사용자 : input 
+# text \r\n line feed carriage-return <- 윈도우
+# text \n line feed <- 맥
+git config --global core.autocrlf true
+
+#깃 생성
+git init
+
+#깃 상태
+git status
+
+#깃 명령어 단추하기 
+git config --global alias.st status
+git st
+
+git config --h
+
+#git use to track
+git add
+git add .
+git add a.txt
+git add *.txt
+
+#use to unstage
+git rm --cached <file>...
+
+git rm --cached a.txt
+
+git status -s
+
+#변경내용 확인
+git diff
+git diff -h
+git diff --staged
+git diff --cached
+
+#git commit
+git commit
+git commit -m "meg"
+git commit -am "add meg"
+
+git log
+
+
