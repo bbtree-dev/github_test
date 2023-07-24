@@ -73,5 +73,28 @@ git log --all --oneline
 git checkout 12321456
 git checkout master
 
+#리모트서버 확인
+git remote -v 
+#리모트서버 삭제
+git remote remove origin 
+#리모트서버 추가
+git remote add origin https://github.com/bbtree-dev/bbtree_homepage.git
+
+#리모트서버 확인
+PS D:\www\project\bbtree_homepage> git remote -v 
+
+#리모트서버 github main이 마스터여서 master 변경
+git push -u origin master
+
+#로그인 안될때 access tokens 로그인 하기
+https://wotres.tistory.com/entry/Github-%EC%97%90%EB%9F%AC-%ED%95%B4%EA%B2%B0%EB%B2%95-Authentication-failed-for-use-a-personal-access-token-instead
+
+#git pull 가 안먹을때
+https://www.todaymart.com/812
+
+$git branch --set-upstream-to=origin/master master
+
+
+
 
 
